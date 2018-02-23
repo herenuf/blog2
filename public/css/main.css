@@ -1,0 +1,494 @@
+.nav > li {
+position: relative;
+display: block;
+border-bottom: 1px solid;
+}
+.main-navigation {
+text-align: center;
+background: #ffffff;
+border-top: 1px solid #ebebeb;
+margin-bottom: 35px;
+border-bottom: 2px solid #e1e1e1;
+}
+.main-header {
+padding-top: 62px;
+padding-bottom: 62px;
+background-repeat: no-repeat;
+background-position: center 20%;
+-webkit-background-size: cover;
+background-size: cover;
+height: 200px;
+background: url(http://static.ghostchina.com/image/6/d1/fcb3879e14429d75833a461572e64.jpg);
+}
+
+.post {
+/* padding-bottom: 35px;
+background: #ffffff;
+margin-bottom: 35px;
+position: relative;
+overflow: hidden;
+border-bottom: 1px solid #ddd; */
+border-bottom: 1px solid #EEE;
+padding-bottom: 25px;
+}
+
+.post .post-head {
+text-align: center;
+   
+}
+
+.post .post-head .post-title {
+margin: 0;
+font-size: 18px;
+/* line-height: 1em; */
+margin-top: 20px;
+line-height: 24px;
+}
+
+.post .post-head .post-title a {
+color: #303030;
+text-decoration: none;
+}
+
+.post .post-head .post-meta {
+color: #959595;
+margin: 14px 0 0px;
+}
+
+.post-content {
+    font: 400 18px/1.62 "Glyphicons Halflings";
+    color: #444443;
+    margin-top: 20px;
+}
+
+.post-content p {
+    margin-top: 0;
+    margin-bottom: 1.46em;
+}
+
+.btn-default {
+border: 1px solid #FF5E53;
+background: #FF5E53;
+color: #ffffff;
+transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+;
+}
+
+.btn {
+padding: 7px 14px;
+border-radius: 2px;
+}
+
+.post .post-footer {
+margin-top: 30px;
+border-top: 1px solid #ebebeb;
+padding-height: 21px 0 0;
+}
+
+.post .post-footer .tag-list {
+color: #959595;
+line-height: 28px;
+}
+/*网站内容（下）*/
+
+.widget {
+margin-bottom: 35px;
+}
+
+
+
+.widget .tag-cloud a {
+border: 1px solid #ebebeb;
+padding: 2px 7px;
+color: #959595;
+line-height: 1.5em;
+display: inline-block;
+margin: 0 7px 7px 0;
+}
+.widget li a{
+    color: #545454;
+}
+/*----------------------------------------
+页脚
+------------------------------------*/
+
+footer {
+background: #333;
+color: #eee;
+font-size: 11px;
+padding: 20px;
+}
+
+.blog-footer {
+padding: 40px 0;
+color: #999;
+text-align: center;
+/*background-color: #f9f9f9;*/
+border-top: 1px solid #e5e5e5;
+}
+
+
+/* track base Css */
+.container {
+margin-top:15px;
+}
+.red {
+color:red;
+}
+#ehong-code-input {
+width:42px;
+letter-spacing:2px;
+margin:0px 8px 0px 0px;
+}
+.ehong-idcode-val {
+position:relative;
+padding:5px 4px 5px 4px;
+top:0px;
+*top:-3px;
+letter-spacing:4px;
+display:inline;
+cursor:pointer;
+font-size:16px;
+font-family:"Courier New",Courier,monospace;
+text-decoration:none;
+font-weight:bold;
+}
+.ehong-idcode-val0 {
+border:solid 1px #A4CDED;
+background-color:#ECFAFB;
+}
+.ehong-idcode-val1 {
+border:solid 1px #A4CDED;
+background-color:#FCEFCF;
+}
+.ehong-idcode-val2 {
+border:solid 1px #6C9;
+background-color:#D0F0DF;
+}
+.ehong-idcode-val3 {
+border:solid 1px #6C9;
+background-color:#DCDDD8;
+}
+.ehong-idcode-val4 {
+border:solid 1px #6C9;
+background-color:#F1DEFF;
+}
+.ehong-idcode-val5 {
+border:solid 1px #6C9;
+background-color:#ACE1F1;
+}
+.ehong-code-val-tip {
+font-size:12px;
+color:#1098EC;
+top:0px;
+*top:-3px;
+position:relative;
+margin:0px 0px 0px 4px;
+cursor:pointer;
+}
+.has-feedback>.input-group>.input-code{
+padding-right: 12px;
+}
+.form-bottom{
+margin-bottom: 5px;
+}
+.text-center{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.container-nav{
+margin-top: 0px;
+}
+.container-reg{
+margin-top: 0px;
+padding-left: 0px;
+/* width: 600px; */
+}
+.col-reg{
+margin-left: 0px;
+padding-right:0;
+}
+.row-reg{
+margin-right: 0px;
+}
+.modal{
+background: #333333;
+/* opacity: 0.5; */
+/* transition: opacity .15s linear; */
+z-index: 1111111;
+}
+.navbar-inverse{
+    width: 100%;
+    background: #000;
+    margin-top: -5px;
+    position: relative;
+    top: 0;
+    z-index: 81998;
+}
+.navbar-inverse .navbar-nav > li >.focus{
+    color: #fff;
+    font-size: 16px;
+}
+.textLeft{
+    position: relative;
+    height: 30px;
+    font-size: 16px;
+}
+.textLeft>strong{
+    position:absolute;
+    left: 0;
+}
+.textLeft>span{
+    position:absolute;
+    right: 0;
+}
+.post .post-head .post-title{
+    font-size: 2em;
+}
+.post-content p{
+    font-size: 16px;
+}
+.clear{
+    height: 120px;
+}
+.clear>button{
+    height: 30px;
+    margin-top: 5px;
+}
+.bgDanger{
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+}
+.leave{
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+}
+.name{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+.name>.fl{
+    position: absolute;
+    left: 0;
+    color: #000000;
+    font-weight: 700;
+}
+.name>.fr{
+    position: absolute;
+    right: 0;
+}
+#div1 {
+    width: 100%;
+    height: 330px;
+}
+.post-content p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+/* table 样式 */
+table {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+  }
+  table td,
+  table th {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 3px 5px;
+    text-align: center;
+  }
+  table th {
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+  }
+  
+  /* blockquote 样式 */
+  blockquote {
+    display: block;
+    border-left: 8px solid #d0e5f2;
+    padding: 5px 10px;
+    margin: 10px 0;
+    line-height: 1.4;
+    font-size: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* code 样式 */
+  code {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin: 0 3px;
+  }
+  pre code {
+    display: block;
+  }
+
+  /* ul ol 样式 */
+  /* ul, ol {
+    margin: 10px 0 10px 20px;
+  } */
+
+  @media (min-width: 992px){
+    .col-md-8 {
+      width: 79.66666667%;
+    }
+  }
+  @media (min-width: 992px){
+  .col-md-4{
+  width:20.333333%
+  }
+}
+.widget .title{
+    border-left: 3px solid #FF5E53;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 0;
+    position: relative;
+    padding-left: 10px;
+    font-weight: 700;
+    color: #333;
+    line-height: 30px;
+}
+ul,li{
+    list-style: none;
+}
+.widget li{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    text-indent: 15px;
+    margin-top: 10px;
+}
+.main-content{
+    background-color: #FFF;
+    min-height: 666px;
+}
+.sidebar{
+    background-color: #F7F7F7;
+    z-index: 99;
+    position: relative;
+    top: 0;
+}  
+.article-list {
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 25px;
+}
+
+.article-list header {
+    margin-top: 20px;
+    line-height: 24px;
+}
+.article-list header .title-type {
+    padding: 5px 7px;
+    background-color: #FF5E53;
+    color: #FFF;
+    line-height: 14px;
+    border-radius: 2px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+}
+.article-list header .title-type i {
+    border-left: 4px solid #FF5E53;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    position: absolute;
+    top: 7px;
+    right: -4px;
+    width: 0;
+    height: 0;
+}
+.article-list header strong {
+    font-size: 18px;
+}
+.article-list header strong a{
+    color: #545454;
+}
+.artivle-list header strong:hover a{
+    color: #FF5E53;
+}
+.article-list .author-mes {
+    margin-top: 10px;
+    color: #999;
+}
+.article-list .author-mes span, .article-list .text-muted span .iconfont {
+    margin-right: 5px;
+}
+.author-mes time{
+    display: inline;
+}
+.article-list .note {
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px;
+    font-family: Arial;
+}
+.article-list .text-muted {
+    margin-top: 15px;
+    text-align: right;
+    color: #999;
+}
+.article-list .text-muted span {
+    margin-left: 15px;
+}
+
+
+/* 小火箭css */
+#gotop1 {
+    width: 80px;
+    position: fixed;
+    bottom: 153px;
+    cursor: pointer;
+    z-index: 99998;
+    right: 45%;
+    margin-right: -620px;
+    display: none;
+}
+
+/* 小火箭悬停特效 */
+
+#gotop1:hover {
+    animation: rubberBand 1s;
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* end 小火箭 */

@@ -1,0 +1,57 @@
+{% extends 'layout.html'%}
+
+{% block content %}
+	{% for content in contents %}
+	<article class="article-list">
+		<header>
+			<span class="title-type">
+				src
+				<i></i>
+			</span>
+			<strong>
+				<a href="/view?contentid={{content.id}}">{{content.title}}</a>
+			</strong>
+		</header>
+		<p class="author-mes">
+			<span>{{content.user.username}}</span>
+			<span>发表于</span>
+			<time>{{content.addTime|date('Y年m月d日 H:i:s',-8*60)}}</time>
+		</p>
+		<div class="note">
+			<p>{{content.description}}</p>
+		</div>
+		<div class="text-muted">
+			<span>阅读({{content.views}})</span>
+			<span>
+				评论({{content.comments.length}})
+			</span>
+		</div>
+	</article>
+	{% endfor %}
+	<!--分页-->
+	<nav aria-label="...">
+		<ul class="pager">
+			<li>
+				{% if page<=1 %}
+					<span>没有了上一页</span>
+				{% else %}
+					<a href="/?category={{category}}&page={{page-1}}">上一页</a>
+				{% endif %}
+			</li>
+			<li>
+				{% if pages >0 %}
+					<strong>{{page}} / {{pages}}</strong>
+				{% else %}
+					
+				{% endif %}
+			</li>
+			<li>
+				{% if page>=pages %}
+					<span>没有下一页了</span>
+				{% else %}
+					<a href="/?category={{category}}&page={{page+1}}">下一页</a>
+				{% endif %}
+			</li>
+		</ul>
+	</nav>
+{% endblock %}
